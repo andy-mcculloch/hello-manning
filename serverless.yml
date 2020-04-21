@@ -61,6 +61,7 @@ provider:
 
 functions:
   hello:
+    name: hello-function
     description: "This is the hello function" 
     handler: handler.hello
     events:
@@ -69,6 +70,7 @@ functions:
           method: get
 
   goodbye:
+    name: goodbye-function
     description: "This is the goodbye function"
     handler: handler.goodbye
     events:
