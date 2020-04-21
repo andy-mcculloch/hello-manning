@@ -67,7 +67,7 @@ functions:
           path: /hello
           method: get
 
-    goodbye:
+  goodbye:
     handler: handler.goodbye
     events:
       - http:
